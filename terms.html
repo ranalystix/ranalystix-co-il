@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>הסכם ההתקשרות - Ranalystix</title>
+<meta name="description" content="העלאה אחת, התמונה המלאה. כל מספר מתיישב עם הדוח. הענף לצד כל מדד.">
+<link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+@font-face{font-family:'Heebo';font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/heebo-hebrew.woff2) format('woff2');unicode-range:U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F}
+@font-face{font-family:'Heebo';font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/heebo-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#FAF9F7;color:#2B3746;font-family:"Heebo","Segoe UI",Arial,sans-serif;
+font-size:16px;font-weight:400;line-height:1.65}
+a{color:#0A2555}
+a:focus-visible,summary:focus-visible{outline:2px solid #0A2555;outline-offset:2px}
+strong,b,th{font-weight:500}
+em{font-style:normal;color:#6B675F}
+h1,h2,h3{font-weight:400;color:#0A2555;letter-spacing:-.01em}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid #E4E0D8;background:#FAF9F7;position:sticky;top:0;z-index:5}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#0A2555;font-weight:500;font-size:19px}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{text-decoration:none;color:#2B3746;font-size:15px;padding:4px 0;border-bottom:2px solid transparent}
+nav a.on{color:#0A2555;border-bottom-color:#0A2555;font-weight:500}
+.hero{background:#0A2555;color:#FFFFFF;padding:68px 0 60px}
+.hero h1{color:#FFFFFF;font-weight:300;font-size:44px;line-height:1.2;margin:0 0 14px;max-width:760px}
+.hero p{font-size:19px;margin:0 0 24px;max-width:760px}
+.hero .launch{display:inline-block;background:#FFFFFF14;border:1px solid #FFFFFF59;border-radius:14px;padding:9px 16px;font-size:15px}
+.hero .launch a{color:#FFFFFF}
+.hero .launch a:focus-visible{outline-color:#FFFFFF}
+section{padding:52px 0;border-bottom:1px solid #E4E0D8}
+section.band{background:#F0EDE7}
+h2{font-size:28px;line-height:1.3;margin:0 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{border:1px solid #E4E0D8;border-radius:12px;padding:18px 20px;background:#FFFFFF}
+.card h3{margin:0 0 6px;font-size:17px;font-weight:500;letter-spacing:0}
+.card p{margin:0;font-size:15px}
+.card .s{color:#6B675F;font-size:14px;margin-top:6px}
+ul.edge{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+ul.edge li{padding-inline-start:22px;position:relative}
+ul.edge li::before{content:"";position:absolute;inset-inline-start:0;top:.72em;width:8px;height:8px;border-radius:50%;background:#0A2555}
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px}
+.plan{border:1px solid #E4E0D8;border-radius:14px;padding:24px;background:#FFFFFF;display:flex;flex-direction:column}
+.plan.prem{border-color:#D9A441}
+.plan h3,.plan h2{margin:0;font-size:20px;font-weight:500;letter-spacing:0;display:flex;align-items:center;gap:10px}
+.pb{display:inline-block;background:#F8EED9;color:#6B4A0E;border-radius:999px;padding:0 14px}
+.price{margin:14px 0 16px}
+.price .val{margin:0;line-height:1.1;color:#0A2555}
+.price .num{font-size:40px;font-weight:300;letter-spacing:-.02em}
+.price .cur{font-size:18px;color:#6B675F;margin-inline-start:.3em}
+.price .per{font-size:14px;color:#6B675F;margin-inline-start:.5em}
+.price .yr{margin:4px 0 0;font-size:14px;color:#6B675F}
+.price .off{display:inline-block;margin-top:8px;background:#E8EEF7;color:#0A2555;font-size:12.5px;font-weight:500;border-radius:999px;padding:2px 10px}
+.plan ul{margin:0;padding-inline-start:18px;font-size:15px}
+.plan li{margin:4px 0}
+.plan .one{margin:0 0 12px;font-size:15px}
+.plan .lead{margin:0 0 4px;font-size:13.5px;font-weight:500;color:#6B675F}
+.plan details{margin-top:10px}
+.plan details summary{cursor:pointer;color:#0A2555;font-size:15px;font-weight:500}
+.plan details ul{margin-top:8px}
+.plan .vat{margin:auto 0 0;padding-top:16px;font-size:13.5px;color:#0A2555}
+.docs-strip{margin:16px 0 0;padding:14px 18px;border:1px solid #E4E0D8;border-radius:12px;background:#FFFFFF}
+.docs-strip h3{margin:0 0 6px;font-size:16px;font-weight:500;letter-spacing:0}
+.docs-strip p{margin:4px 0;font-size:14px;color:#6B675F}
+.note{color:#6B675F;font-size:14px;margin:14px 0 0}
+.scenes h2{margin-bottom:6px} .scenes .sub{color:#6B675F;margin:0 0 10px;font-size:15px}
+.scene{display:grid;grid-template-columns:2fr 3fr;gap:36px;align-items:center;padding:34px 0;border-top:1px solid #E4E0D8}
+.scene:first-of-type{border-top:none}
+.scene .eb{font-size:13px;font-weight:500;color:#6B675F;letter-spacing:.06em;margin:0 0 8px}
+.scene h3{font-size:25px;line-height:1.3;margin:0 0 10px}
+.scene p{margin:0;font-size:16px;line-height:1.6}
+.scene .pic{position:relative}
+.shot{position:relative;aspect-ratio:16/10;overflow:hidden;border-radius:14px;border:1px solid #E4E0D8;
+box-shadow:0 14px 36px rgba(10,37,85,.12);background:#FFFFFF}
+.shot .zm{position:absolute;inset:0;transform-origin:0 0}
+.shot img{width:100%;height:100%;display:block}
+/* the frame points at the figure: green stays where it points (Orly, 15 Nov 2026) */
+.shot .hl{position:absolute;border:2px solid #0FB981;border-radius:9px;
+box-shadow:0 0 0 4px rgba(15,185,129,.18),0 0 0 9999px rgba(10,37,85,.07)}
+.fact{position:absolute;inset-inline-start:-12px;bottom:16px;background:#FFFFFF;border:1px solid #E4E0D8;
+border-inline-start:4px solid #0A2555;border-radius:12px;padding:9px 16px 9px 14px;box-shadow:0 10px 24px rgba(10,37,85,.14);max-width:290px}
+.fact .l{font-size:12.5px;font-weight:500;color:#6B675F;line-height:1.35}
+.fact .v{font-size:21px;font-weight:400;color:#0A2555;line-height:1.25;margin-top:2px;white-space:nowrap}
+@media (max-width:760px){.scene{grid-template-columns:1fr;gap:18px;padding:26px 0}.scene .pic{order:-1}.fact{position:static;margin-top:10px;max-width:none}.scene h3{font-size:21px}}
+.skip{position:absolute;right:-9999px;top:8px;background:#FFFFFF;color:#0A2555;padding:8px 14px;border:2px solid #0A2555;border-radius:6px;z-index:10}
+.skip:focus{right:16px}
+main:focus{outline:none}
+.legal{padding:40px 0 56px}
+.legal .wrap{max-width:860px}
+h1.page-h{font-size:32px;line-height:1.3;margin:0 0 18px}
+.legal h2{font-size:20px;font-weight:500;letter-spacing:0;margin:30px 0 10px}
+.legal h3{font-size:17px;font-weight:500;letter-spacing:0;margin:22px 0 8px}
+.legal ul,.legal ol{padding-inline-start:22px}
+.legal li{margin:6px 0}
+.legal table{border-collapse:collapse;width:100%;font-size:14.5px;margin:12px 0;background:#FFFFFF}
+.legal th,.legal td{border:1px solid #E4E0D8;padding:7px 10px;text-align:start;vertical-align:top}
+.legal .en{margin-top:34px;padding-top:6px;border-top:1px solid #E4E0D8}
+dl.who{display:grid;grid-template-columns:max-content 1fr;gap:6px 18px;margin:8px 0 0}
+dl.who dt{color:#6B675F} dl.who dd{margin:0}
+footer{background:#F0EDE7;padding:28px 0 36px;font-size:14px;color:#3A4453}
+footer .links{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px}
+footer p{margin:6px 0}
+footer .so{display:flex;align-items:center;gap:16px;max-width:860px;margin:26px auto 0;font-size:13px;letter-spacing:.05em}
+footer .so .ln{flex:1;height:1px;background:#D8D2C7}
+footer .so .in{display:inline-flex;align-items:center;gap:9px;white-space:nowrap}
+footer .so .by{color:#0A2555;font-weight:500}
+footer .so .dot{margin:0 2px}
+@media (max-width:640px){.hero{padding:44px 0 40px}.hero h1{font-size:32px}.hero p{font-size:17px}
+section{padding:36px 0}h2{font-size:23px}h1.page-h{font-size:26px}nav{gap:6px 14px}header{position:static}
+header .wrap{padding-top:10px;padding-bottom:10px}.price .num{font-size:36px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">דילוג לתוכן</a>
+<header><div class="wrap">
+<a class="brand" href="index.html"><img src="data:image/png;base64,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" alt="" width="28" height="28" style="display:inline-block;vertical-align:middle"><span>Ranalystix</span></a>
+<nav aria-label="Ranalystix"><a href="index.html">המוצר</a><a href="pricing.html">מחירים</a><a href="terms.html" class="on" aria-current="page">הסכם ההתקשרות</a><a href="privacy.html">פרטיות</a><a href="refund.html">ביטול והחזרים</a><a href="accessibility.html">נגישות</a></nav>
+</div></header>
+<main id="content" tabindex="-1">
+<div class="legal"><div class="wrap"><h1 class="page-h">הסכם ההתקשרות</h1><p><em>גרסה 2026-11-18.2. בכל מחלוקת על פרשנות — הנוסח העברי גובר.</em></p>
+<h2>1. ההסכם והצדדים</h2>
+<p>תנאים אלה הם הסכם בין העסק שנרשם לשירות Ranalystix ("הלקוח", "אתם") לבין
+אורלי רוח ושות' בע"מ (ח.פ. 514087774), ישראל ("אנחנו"). מדיניות הפרטיות, נספח עיבוד המידע והצהרת הנגישות הם
+חלק מהם. האישור נעשה בסימון תיבה ובלחיצה על "אישור" במסך הכניסה; הגרסה
+שאושרה ומועד האישור נשמרים, ותוכלו לקבל עותק בכל עת בפנייה אלינו. המאשר
+מצהיר שמלאו לו 18 ושהוא מוסמך לחייב את העסק. פניות: info@ranalystix.com.</p>
+<h2>2. שירות לעסקים</h2>
+<p>השירות מיועד לעסקים ולאנשי מקצוע הפועלים עבור עסק, לשימוש עסקי בלבד, ואינו
+מיועד לשימוש פרטי או ביתי. <strong>השירות מוצע רק לעסק הרשום בישראל או בארצות
+הברית</strong>; עסק הרשום במקום אחר אינו רשאי להירשם לשירות. עם זאת, אנו מעניקים לכל לקוח את ההגנות שהדין
+מעניק לצרכן בעניין חידוש, ביטול ומחיר (סעיף 9), גם כשאינו צרכן.</p>
+<h2>3. מה השירות עושה</h2>
+<p>המערכת Ranalystix היא תוכנה. היא קוראת מסמכים כספיים שאתם מעלים — דוחות כספיים,
+הדפסות וקבצים מתוכנות הנהלת חשבונות, קבצים במבנה אחיד ודוחות מס — ומציגה את
+הנתונים שבהם כדוחות, יחסים, מדדים וגרפים, לצד נתון השוואה ענפי מפרסומים של
+צד שלישי. המערכת מריצה בדיקות על הקריאה שלה עצמה, ואינה מציגה נתון שאינו
+מתיישב עם הסיכומים המודפסים במסמך.</p>
+<h2>4. מה השירות איננו — נא לקרוא</h2>
+<ul>
+<li><strong>אינו ביקורת, סקירה או חוות דעת.</strong> איננו מאמתים את המסמכים מול מקור
+  חיצוני ואיננו מחווים דעה או נותנים הבטחה לגביהם; חוות דעת על דוחות כספיים
+  שמורה לרואה חשבון.</li>
+<li><strong>אינו ייעוץ.</strong> דבר בשירות אינו ייעוץ חשבונאי, מיסויי, משפטי, פיננסי, ייעוץ
+  אשראי, ייעוץ השקעות או שיווק השקעות כמשמעם בחוק הסדרת העיסוק בייעוץ השקעות, ואינו
+  המלצה. המדדים ונתוני ההשוואה כלליים, אינם מותאמים לנתוניו ולצרכיו של איש,
+  ואינם יעד, דירוג או ציון. איננו בעלי רישיון ייעוץ השקעות.</li>
+<li><strong>אינו דוח כספי.</strong> הפלט הוא תצוגה של הנתונים שלכם לשימושכם הפנימי. לא
+  תציגו אותו לבנק, למלווה, למשקיע, לרשות או לצד שלישי כדוח כספי ערוך, סקור
+  או מבוקר.</li>
+<li><strong>אינו שירות נתוני אשראי.</strong> השירות אינו נותן שירותי נתוני אשראי ואינו
+  מדרג אשראי של אדם, ולא תשתמשו בו לשם כך.</li>
+</ul>
+<h2>5. המסמכים והמידע שלכם</h2>
+<p>כל הזכויות במסמכים שאתם מעלים ובנתונים שלכם נשארות שלכם. אתם מעניקים לנו
+רשות מוגבלת לאחסן, להעתיק, לעבד ולהציג אותם <strong>רק</strong> כדי לספק לכם את השירות,
+כמפורט בנספח עיבוד המידע. אתם מצהירים שיש לכם הזכות והסמכות להעלות כל מסמך,
+לרבות מידע אישי על עובדים, לקוחות או אחרים שהוא כולל, ושאין בכך הפרה של
+דין או של חובת סודיות. שמרו עותקים משלכם — השירות אינו ארכיון.</p>
+<h2>6. חילוץ אוטומטי עלול לטעות — חובת האימות</h2>
+<p>הפלט מופק אוטומטית ממסמכים במבנים רבים. על אף הבדיקות שהשירות מריץ, נתון
+עלול להיקרא בטעות, להיות מסווג שלא כראוי או לחסור; מסמך עלול להיקרא לתקופה
+או ליחידות שגויות; ונתון שקיים במסמך עשוי שלא להיות מוצג. <strong>לפני כל החלטה
+עליכם לבדוק כל נתון שאתם נסמכים עליו מול מסמכי המקור ועם רואה החשבון שלכם.</strong>
+השירות מראה את מקורו של כל נתון כדי לאפשר זאת.</p>
+<h2>6א. ההחלטות שלכם — בלי הסתמכות; רכישת עסק, נתוני הלוואה ומסמכי עסק אחר</h2>
+<ul>
+<li><strong>ההחלטה שלכם.</strong> אינכם נסמכים, ולא תסתמכו, על השירות או על הפלט כבסיס —
+  או כתחליף לבדיקה שלכם — להחלטה להלוות, ללוות, לערוב, להשקיע, לקנות או למכור
+  עסק או חלק בו, או לכל החלטה כספית, אשראית, מיסויית או משפטית אחרת. כל החלטה
+  כזו מתקבלת על ידיכם בלבד, עם היועצים שתבחרו (רואה חשבון, עורך דין, מלווה).
+  האישורים שאתם נותנים באפליקציה — לרבות האישור המוצג לפני מסכי עסק שאתם
+  רוכשים — הם חלק מתנאים אלה. בהחלטה להירשם ובשימוש בפלט לא נסמכתם על שום
+  אמירה על השירות שנאמרה מחוץ לתנאים אלה, לרבות באתר, בחומרי שיווק, בהדגמה או
+  בתשובות העוזר.</li>
+<li><strong>רכישת עסק ונתוני הלוואה.</strong> הרווח לבעלים (SDE), יחס כיסוי שירות החוב, יחס
+  ההלוואה למחיר וכל נתון דומה הם חישוב על הנתונים המודפסים במסמכים שהעליתם
+  ועל תנאי ההלוואה והמחיר שהזנתם, ותו לא. מסמכי מוכר עלולים להיות חסרים או
+  שגויים, והשירות אינו יכול לזהות זאת. הפלט אינו בדיקת נאותות, אינו בדיקת
+  איכות רווחים, אינו הערכת שווי ואינו חוות דעת על מחיר, הלוואה או עסקה. ספים
+  של מינהל העסקים הקטנים האמריקאי (SBA) או של מלווה מובאים לידיעה בלבד, כפי
+  שפורסמו, ועשויים להשתנות; ההחלטה אם להעמיד הלוואה ובאילו תנאים היא של המלווה
+  בלבד. Ranalystix אינה קשורה ל־SBA או למלווה כלשהו, ואינה מאושרת או מומלצת
+  על ידם. לפני כל החלטה תבדקו את הנתונים עם רואה חשבון או עם מלווה ותערכו בדיקה
+  משלכם.</li>
+<li><strong>לא כלי להחלטות אשראי.</strong> השירות אינו מחליט, אינו מדרג ואינו ממליץ על העמדת
+  אשראי, הלוואה, ערבות או השקעה. מלווה או מתווך המשתמש בו אחראי לבדו לחיתום,
+  להחלטותיו ולעמידתו בדין החל עליהן.</li>
+<li><strong>מסמכים של עסק אחר.</strong> כשאתם מעלים מסמכים של עסק שאינו שלכם — למשל דוחות של
+  מוכר בעסקת רכישה או של לווה — אתם מצהירים שקיבלתם אותם כדין ובהסכמתו (למשל
+  לפי הסכם סודיות), שהשימוש בהם עומד בתנאים שבהם קיבלתם אותם, ושהאחריות כלפי
+  אותו עסק עליכם בלבד.</li>
+<li><strong>הקבצים המיוצאים.</strong> לא תסירו, תשנו או תסתירו את ההבהרה שבראש כל קובץ שיוצא
+  מהשירות כשאתם מעבירים אותו לאחר.</li>
+</ul>
+<h2>7. עוזר ה-AI</h2>
+<p>באפליקציה עוזר AI אופציונלי, העונה על שאלות התמצאות ותפעול בלבד — היכן נמצא
+דבר, מה אומרת הודעה, איך מוגדר מדד — מתוך המדריכים של האפליקציה. הוא אינו
+רואה את המסמכים או את הנתונים שלכם ואינו נותן ייעוץ. נוסח השאלה, שם המסך
+וההודעה האחרונה שהוצגה נשלחים לספק מודל שפה חיצוני (Anthropic או OpenAI,
+שרתיו מחוץ לישראל) לשם התשובה. תשובות AI עלולות להיות חלקיות או שגויות, הן
+הכוונה כללית בלבד ואינן חלק מהפלט. אל תקלידו בעוזר מידע אישי או כספי.</p>
+<h2>8. שימוש מותר</h2>
+<p>אין להשתמש בשירות בניגוד לדין או כדי להטעות; להעלות קוד זדוני או תוכן המפר
+זכויות; להעתיק, לחלץ, להנדס לאחור או לבנות מוצר מתחרה מהשירות, אלא במידה
+שהדין מתיר במפורש; לבדוק או לעקוף את אבטחתו; או לשתף פרטי גישה, למכור או
+להעביר את השירות לאחר ללא הסכמתנו בכתב. אתם אחראים לשמירת פרטי הגישה
+ולפעולות שנעשות בחשבונכם, ותודיעו לנו מיד על שימוש לא מורשה. <strong>אין להשתמש
+בשירות</strong> אם העסק, מי שמחזיק בו או שולט בו, או מי שפועל בשמו, נמצא או רשום
+במדינה או באזור שחלות עליהם סנקציות מקיפות של ישראל, של ארצות הברית או של
+האו"ם, או שהוא עצמו נתון לסנקציות כאלה, או בניגוד לדיני הפיקוח על הייצוא;
+במקרה כזה נהיה רשאים לסיים את השירות מיד.</p>
+<h2>9. מנוי, מחיר, חידוש וביטול</h2>
+<ul>
+<li><strong>מסלול חינמי.</strong> נוכל להציע מסלול חינמי: עסק אחד, ל-30 יום, הדוח האחרון שלו
+  לסוף שנה, עם חלק ממה שהשירות מציג, כולל השוואה לענף, בלי אמצעי תשלום. היקפו עשוי להשתנות, ונוכל להפסיק אותו, בהודעה באתר
+  30 יום מראש. חשבון חינמי שלא עבר למנוי בתשלום נמחק 30 יום אחרי ההעלאה, עם
+  המסמכים והנתונים שבו, כמפורט במדיניות הפרטיות. תנאים אלה, ובהם סעיפים 4, 6,
+  6א, 12 ו-13, חלים על המסלול החינמי במלואם.</li>
+<li><strong>מחיר ותקופה.</strong> המסלול, המחיר, תדירות החיוב והאם המנוי מתחדש מוצגים לכם
+  לפני ההרשמה ונשלחים אליכם בדוא"ל. המחיר מוצג בשקלים, לפני מע"מ וגם כולל
+  מע"מ. החיוב בחשבונית כדין; איננו שומרים פרטי כרטיס אשראי.</li>
+<li><strong>חידוש.</strong> מנוי מתחדש רק אם אישרתם זאת במפורש בהרשמה. לפני תום תקופה קצובה
+  נשלח לכם הודעה עם המחיר שיחול ואופן הביטול.</li>
+<li><strong>ביטול.</strong> בכל עת, בכפתור הביטול באפליקציה או בדוא"ל, בלי צורך בנימוק. הביטול נכנס לתוקף בתוך שלושה ימי עסקים; תשלמו רק באופן
+  יחסי על התקופה שנוצלה, ותשלום מראש על תקופה שלא נוצלה יוחזר באופן יחסי.</li>
+<li><strong>שינוי מחיר</strong> יחול רק מהחידוש הבא, בהודעה של 30 יום מראש; תוכלו לבטל לפני
+  כן ללא חיוב.</li>
+</ul>
+<h2>10. דיוור והודעות</h2>
+<p>נשלח אליכם הודעות שירות בלבד — חשבוניות, הודעות על החשבון, תזכורות חידוש,
+שינויים בתנאים ואירועי אבטחה. <strong>לא נשלח אליכם דבר פרסומת</strong> בדוא"ל, במסרון
+או בכל אמצעי אחר שחוק התקשורת חל עליו, אלא אם נתתם לכך הסכמה נפרדת ומפורשת,
+שאינה תנאי לשירות; כל דבר פרסומת יסומן "פרסומת" ויכלול דרך פשוטה לסרב.</p>
+<h2>11. קניין רוחני</h2>
+<p>התוכנה, עיצובה, שיטותיה ותיעודה שלנו ושל מעניקי הרישיון לנו. אתם מקבלים
+זכות שימוש לא-בלעדית ובלתי-עבירה לצרכי העסק שלכם בתקופת המנוי. נוכל להשתמש
+בנתונים סטטיסטיים מצרפיים על תפעול השירות שאינם מזהים אתכם, אדם כלשהו או
+את תוכן המסמכים, לתפעול השירות ולשיפורו בלבד.</p>
+<h2>12. אחריות</h2>
+<p>השירות ניתן כמות שהוא וכפי שהוא זמין; הוא מפותח ומתעדכן באופן שוטף, ויכולותיו עשויות להשתנות. איננו
+מתחייבים שהשירות יהיה רציף ונקי מתקלות, שכל נתון ייקרא נכון, או שהפלט יתקבל
+אצל צד שלישי. אחריותנו לנזק בשל השירות <strong>מוגבלת לסכום דמי המנוי ששילמתם לנו
+בשנים-עשר החודשים שקדמו לאירוע, או ל-400 ש"ח, הגבוה מביניהם</strong>, ואיננו אחראים לנזק עקיף או תוצאתי, כגון
+אובדן רווח או מימון — זאת משום שהשירות מציג נתונים שאתם מספקים, ומחירו
+נקבע בהתאם. <strong>אין בהגבלות אלה כדי לפטור אותנו מאחריות לנזק שגרמנו בזדון או
+ברשלנות רבתי, לנזק גוף, להפרת חובותינו לפי דיני הגנת הפרטיות ואבטחת המידע,
+או מאחריות שהדין אינו מתיר להגביל</strong>, והן אינן גורעות מזכותכם לפנות לבית
+המשפט.</p>
+<h2>13. שיפוי</h2>
+<p>תשפו אותנו בשל תביעה של צד שלישי שנובעת מהמסמכים שהעליתם בלי זכות, ממסמכי
+עסק אחר שהעליתם, מהחלטה להלוות, ללוות, להשקיע, לקנות או למכור עסק שקיבלתם
+אתם או מי שמסרתם לו את הפלט, מהפרת תנאים אלה על ידכם, או מהצגת הפלט לצד
+שלישי בניגוד לסעיף 4 — ובלבד שהודענו
+לכם על התביעה במהירות, אפשרנו לכם להתגונן מפניה, ולא התפשרנו בה בלי
+הסכמתכם.</p>
+<h2>14. אבטחה ואירועים</h2>
+<p>אנו מקיימים אמצעי אבטחה ההולמים מסמכים כספיים, כמפורט במדיניות הפרטיות
+ובנספח עיבוד המידע. אין מערכת חסינה לחלוטין. על אירוע אבטחה הנוגע למידע שלכם
+נודיע לכם בלא דיחוי, ונדווח לרשות להגנת הפרטיות כנדרש בדין.</p>
+<h2>15. סיום</h2>
+<p>תוכלו לבטל בכל עת (סעיף 9). אנו רשאים להשעות או לסיים את השירות רק אם
+הפרתם את התנאים הפרה מהותית ולא תיקנתם אותה בתוך 14 יום מהודעתנו, מיד
+כשהדבר נדרש למניעת נזק או על פי דין, או אם נפסיק את השירות כולו בהודעה של
+60 יום — ואז נחזיר תשלום מראש על התקופה שלא נוצלה. לאחר הסיום תוכלו להוריד את
+המידע שלכם בתוך 30 יום, ולאחר מכן הוא יימחק כמפורט בנספח עיבוד המידע.</p>
+<h2>16. שינוי התנאים</h2>
+<p>נוכל לעדכן תנאים אלה רק בהודעה של 30 יום מראש, שתפרט את השינוי. שינוי מהותי
+יחייב את אישורכם לפני המשך השימוש, ולא יחול על עניין שהתגבש לפני כניסתו
+לתוקף. אם אינכם מסכימים — תוכלו לבטל לפני כניסתו לתוקף ולקבל החזר יחסי.</p>
+<h2>17. דין ושיפוט — שני פרקים, לפי מקום רישום העסק</h2>
+<p>הסכם זה כולל שני פרקים: <strong>פרק א'</strong> חל על עסק הרשום בישראל; <strong>פרק ב'</strong> חל על עסק שהתאגד או נרשם בארצות
+הברית. הפרק שחל נקבע <strong>לפי מקום הרישום בפועל של הגוף החותם על ההסכם</strong>, כמפורט
+בנספח א', ולא לפי הצהרה בהרשמה — ההצהרה קובעת רק את סדר הצגת הפרקים. על כל
+לקוח חל פרק אחד בלבד, ושני הפרקים מוצגים לכל לקוח לשם שקיפות מלאה.</p>
+<h2>18. כללי</h2>
+<p>הודעות מאיתנו — לדוא"ל שנמסר בהרשמה; הודעות אלינו — ל-info@ranalystix.com. איננו
+אחראים לעיכוב שמקורו בנסיבות שאינן בשליטתנו הסבירה. לא תעבירו את ההסכם
+לאחר ללא הסכמתנו; אנו רשאים להעבירו במסגרת מיזוג או מכירת הפעילות, בהודעה
+ובלי לגרוע מזכויותיכם. סעיף שייקבע שאינו אכיף יתוקן במידה המזערית הנדרשת,
+ויתר הסעיפים יעמדו בתוקפם. ויתור או שיהוי אינם ויתור על זכות.</p><h2>פרק א' — עסק הרשום בישראל</h2>
+<p><strong>א1. דין ושיפוט.</strong> על ההסכם יחול דין מדינת ישראל. סמכות השיפוט נתונה לבית
+המשפט המוסמך לפי דין, וכל צד רשאי לפנות לבית המשפט לתביעות קטנות כשהעניין
+בסמכותו. אין בפרק זה תניית בוררות, ואין בו ויתור על זכות כלשהי לפנות לערכאות.</p>
+<p><strong>א2. תחולת הפרק לעסק הרשום בארצות הברית.</strong> ההסכם כולל גם פרק החל רק על עסק
+הרשום בארצות הברית (פרק ב'), ובו דין מדינת דלאוור ובוררות אישית. הפרק מוצג לכל
+לקוח לשם שקיפות מלאה בלבד. <strong>על עסק הרשום בישראל הפרק אינו חל:</strong> אין בו כדי
+לחייב אותו בבוררות, להגביל את זכותו לפנות לבית המשפט או לתובענה ייצוגית, או
+לגרוע מכל זכות אחרת שלו לפי תנאים אלה ולפי דין. אם יתברר שעסק שהצהיר על רישום
+בארצות הברית רשום בפועל בישראל, יחול עליו פרק זה בלבד.</p><div class="en" dir="ltr" lang="en"><h2>Chapter B — a business organised or registered in the United States</h2>
+<p><em>Chapter B is written in English, which is its binding text.</em></p>
+<p><strong>B1. Application of this chapter.</strong> This chapter applies only to a business
+organised or registered in the United States, determined by its place of
+organisation and not by any statement made at sign-up. If a business that
+stated it is registered in Israel is in fact organised in the United States,
+this chapter applies to it, and it has accepted this chapter — including the
+arbitration agreement and the class-action and jury-trial waivers — by
+accepting these terms. For such a business, this chapter replaces sections 12
+and 17 of the general terms and Chapter A, and sections B6 to B9 replace
+section 6A and section 13 of the general terms.</p>
+<p><strong>B2. Governing law; business use; FCRA.</strong> For such a business this agreement
+is governed by the laws of the State of Delaware, without regard to its
+conflict-of-laws rules, and by the Federal Arbitration Act for section B5;
+subject to section B5, the state and federal courts located in Delaware have
+exclusive jurisdiction. The service is offered to it for business purposes
+only. The service is not a consumer reporting agency and the output will not be
+used as a factor in any individual's eligibility for credit, insurance,
+employment or any other purpose under the Fair Credit Reporting Act. Its
+privacy rights under US state law are those set out in the US section of the
+Privacy Policy.</p>
+<h3>B3. DISCLAIMER OF WARRANTIES</h3>
+<p><strong>THE SERVICE AND ALL OUTPUT ARE PROVIDED "AS IS" AND "AS AVAILABLE". TO THE
+FULLEST EXTENT PERMITTED BY LAW, WE AND OUR SUPPLIERS DISCLAIM ALL
+WARRANTIES, EXPRESS, IMPLIED OR STATUTORY, INCLUDING ANY WARRANTY OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT,
+ACCURACY, AND ANY WARRANTY ARISING FROM A COURSE OF DEALING OR USAGE OF
+TRADE. WE DO NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, SECURE OR
+ERROR-FREE, THAT ANY FIGURE WILL BE READ CORRECTLY, OR THAT THE OUTPUT WILL
+MEET YOUR NEEDS OR BE ACCEPTED BY ANY THIRD PARTY.</strong> The service is developed
+and updated on an ongoing basis, and features may change.</p>
+<h3>B4. LIMITATION OF LIABILITY</h3>
+<p><strong>TO THE FULLEST EXTENT PERMITTED BY LAW: (A) NEITHER WE NOR OUR SUPPLIERS
+WILL BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
+EXEMPLARY OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, BUSINESS,
+GOODWILL, FINANCING OR DATA, OR THE COST OF SUBSTITUTE SERVICES, HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, EVEN IF ADVISED OF THEIR POSSIBILITY;
+AND (B) OUR TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THE
+SERVICE OR THESE TERMS WILL NOT EXCEED THE GREATER OF THE FEES YOU PAID US IN
+THE TWELVE MONTHS BEFORE THE EVENT GIVING RISE TO THE CLAIM AND ONE HUNDRED
+US DOLLARS (US$100).</strong> These limits are an essential basis of the bargain,
+apply even if a limited remedy fails of its essential purpose, and do not
+limit liability that the law does not allow to be limited. Nothing in this
+Section limits liability for a party's intentional fraud or willful
+misconduct.</p>
+<h3>B5. DISPUTE RESOLUTION — BINDING INDIVIDUAL ARBITRATION, CLASS-ACTION AND JURY-TRIAL WAIVER</h3>
+<p><strong>B5.1 Talk to us first.</strong> Before starting any proceeding, the party with a
+dispute will send a written notice describing it and the relief sought to the
+other (info@ranalystix.com for us). The parties will try in good faith to resolve it for
+60 days, which suspends any limitation period.</p>
+<p><strong>B5.2 Arbitration.</strong> Any dispute, claim or controversy arising out of or
+relating to the service or these Terms, including their formation,
+interpretation, scope or enforceability, that is not resolved under B5.1
+will be resolved by <strong>final and binding arbitration before a single
+arbitrator</strong> administered by the American Arbitration Association under its
+Commercial Arbitration Rules (or, if it declines, by JAMS under its
+Comprehensive Rules). The arbitrator, not a court, decides all questions of
+arbitrability, except as B5.4 and B5.6 say. The arbitration may be held by
+video conference or in the county of your principal place of business. The
+Federal Arbitration Act governs this section B5.</p>
+<p><strong>B5.3 Fees.</strong> Each party pays its own costs and fees, and filing and
+arbitrator fees are paid as the rules provide, unless the arbitrator decides
+otherwise under applicable law.</p>
+<p><strong>B5.4 CLASS-ACTION WAIVER.</strong> <strong>CLAIMS MAY BE BROUGHT ONLY ON AN INDIVIDUAL
+BASIS, NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY CLASS, COLLECTIVE,
+CONSOLIDATED OR REPRESENTATIVE PROCEEDING.</strong> The arbitrator may award relief
+only in favour of the individual party seeking it and only to the extent
+needed for that party's claim. If this B5.4 is found unenforceable for a
+claim, that claim proceeds in court, not in arbitration, and the rest of
+section B5 continues to apply to all other claims.</p>
+<p><strong>B5.5 Mass filings.</strong> If 25 or more similar demands are filed by or against
+either party through the same or coordinated counsel, the AAA will administer
+them in batches of up to 25, with one arbitrator per batch. Batches proceed at
+the same time, not one after another; no batch's outcome binds any party to
+another batch; and the limitation period in B5.9 is suspended for each demand
+from the day it is filed until its batch is decided. A court may enforce this
+paragraph.</p>
+<p><strong>B5.6 Exceptions.</strong> Either party may bring an individual claim in a small
+claims court within its jurisdiction, and either party may seek an
+injunction in court to protect its intellectual property or confidential
+information.</p>
+<p><strong>B5.7 JURY-TRIAL WAIVER.</strong> <strong>WHERE A DISPUTE PROCEEDS IN COURT FOR ANY
+REASON, BOTH PARTIES WAIVE ANY RIGHT TO A TRIAL BY JURY.</strong></p>
+<p><strong>B5.8 30-day opt-out.</strong> You may opt out of this arbitration agreement by
+emailing info@ranalystix.com within 30 days after first accepting these Terms, with your
+business name and the email used to register. Opting out affects only
+arbitration; the rest of these Terms, including B5.7, still apply.</p>
+<p><strong>B5.9 Time to bring a claim.</strong> To the extent permitted by law, any claim
+must be started within one year after it arose, or it is permanently barred.</p>
+<h3>B6. Your decisions are yours — no reliance</h3>
+<p>You acknowledge and agree that: (a) you are not relying, and will not rely,
+on the service or any output as the basis, or as a substitute for your own
+investigation, for any decision to lend, borrow, guarantee, invest, buy or
+sell a business or an interest in one, or any other financial, credit, tax or
+legal decision; (b) every such decision is made by you alone, with the
+professional advisers you choose (such as a CPA, an attorney or a lender);
+(c) we have made no representation about any business, any figure or any
+outcome other than those expressly stated in these Terms; (d) the
+acknowledgments you give in the application — including the acknowledgment
+shown before the screens of a business you are buying — form part of these
+Terms; and (e) in deciding to subscribe and in using the output, you have not
+relied on any statement about the service made outside these Terms, including
+on our website, in marketing material, in a demonstration or by the AI
+helper.</p>
+<h3>B7. Business acquisitions, loan figures and SBA references</h3>
+<p>Where you use the service to look at a business you are considering buying,
+or to see the coverage of a loan you are considering:</p>
+<ul>
+<li><strong>Arithmetic on the documents, nothing more.</strong> Seller's discretionary
+  earnings, debt-service coverage, the ratio of a loan to a purchase price
+  and every similar figure are calculations on the figures printed in the
+  documents you upload and on the loan terms and price you enter. They are
+  only as complete and as accurate as those documents and entries.</li>
+<li><strong>The seller's documents may be incomplete or wrong.</strong> Tax returns and
+  statements prepared by or for a seller may omit liabilities, include
+  personal or non-recurring items, or be inaccurate, and the service cannot
+  detect this.</li>
+<li><strong>Not due diligence, not a valuation.</strong> The output is not financial,
+  legal, tax or commercial due diligence, not a quality-of-earnings review,
+  not an appraisal or valuation, and not an opinion on a price, a loan or a
+  transaction.</li>
+<li><strong>SBA and lender references.</strong> Any threshold, ratio or rule of the U.S.
+  Small Business Administration or of a lender is quoted for reference only,
+  as published at the time, and may have changed. Whether a loan is made,
+  and on what terms, is decided solely by the lender and, where relevant, the
+  SBA. Ranalystix is not affiliated with, approved or endorsed by the SBA or
+  any lender.</li>
+<li><strong>Before any decision</strong> you will review the figures with a CPA or a lender
+  and carry out your own due diligence.</li>
+</ul>
+<h3>B8. Not a loan-decision tool; another business's documents; exported files</h3>
+<ul>
+<li><strong>Not a credit, underwriting or loan-decision tool.</strong> The service does not
+  decide, score or recommend any extension of credit, loan, guarantee or
+  investment. A lender or broker using it remains solely responsible for its
+  own underwriting, its credit decisions and its compliance with the laws
+  that govern them, including the Equal Credit Opportunity Act and any
+  state lending law.</li>
+<li><strong>Not a consumer report.</strong> The service is not a consumer reporting agency,
+  and you will not use the output, in whole or part, as a factor in
+  establishing any individual's eligibility for credit, insurance,
+  employment or any other purpose under the Fair Credit Reporting Act.</li>
+</ul>
+<p><strong>Documents of another business.</strong>
+Where you upload documents of a business you do not own — for example, a
+seller's tax returns or statements in a proposed acquisition, or a borrower's
+statements — you represent that you obtained them lawfully and with that
+business's permission (for example under a confidentiality agreement), that
+your use complies with every term on which you received them, and that you
+alone are responsible to that business for their use.</p>
+<p>You will not remove, alter or obscure the notice that opens every file exported from the service when you share it.</p>
+<h3>B9. Indemnity</h3>
+<p>You will defend, indemnify and hold harmless us, our officers, employees and
+suppliers from any third-party claim, and the resulting losses, costs and
+reasonable legal fees, arising from: (a) the documents and data you upload,
+including any claim by an individual whose information they contain; (b)
+your use of the service or the output, including any reliance on it by a
+lender, investor, authority or other third party to whom you provided it;
+(c) any decision to lend, borrow, invest, or buy or sell a business made by
+you or by anyone to whom you provided the output; (d) your use of another
+business's documents, including any claim by that business; (e) your breach
+of these Terms or of law. We will notify you of the claim
+and let you control its defence, with our reasonable cooperation.</p></div><h3>נספח א' — מי נחשב עסק הרשום בישראל ומי בארצות הברית</h3>
+<table>
+<thead>
+<tr>
+<th>מי חותם על ההסכם</th>
+<th>הפרק שחל</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>חברה עם מספר חברה (ח.פ.) ישראלי, עוסק מורשה או עוסק פטור</td>
+<td>פרק א' (ישראל)</td>
+</tr>
+<tr>
+<td>גוף שהתאגד במדינה בארצות הברית (Inc., LLC, LP)</td>
+<td>פרק ב' (ארה"ב)</td>
+</tr>
+<tr>
+<td>קרן אמריקאית — כשחברת הניהול הישראלית היא שפתחה את החשבון</td>
+<td>פרק א', לפי מי שחתום</td>
+</tr>
+<tr>
+<td>קרן אמריקאית שפתחה את החשבון בעצמה</td>
+<td>פרק ב'</td>
+</tr>
+<tr>
+<td>רואה חשבון או משרד ישראלי המנתחים חברה אמריקאית</td>
+<td>פרק א' — הם הלקוח</td>
+</tr>
+<tr>
+<td>גוף הרשום בשתי המדינות</td>
+<td>לפי המקום שבו התאגד</td>
+</tr>
+<tr>
+<td>גוף שאינו רשום בישראל או בארצות הברית</td>
+<td>השירות אינו מוצע לו (סעיף 2)</td>
+</tr>
+</tbody>
+</table>
+<p>נספח זה הוא חלק מההסכם. "הגוף החותם" הוא מי שפתח את החשבון ואישר את התנאים,
+כפי שנרשם בשמו ובמספר הרישום שמסר בהרשמה.</p></div></div>
+</main>
+<footer><div class="wrap">
+<div class="links"><a href="pricing.html">מחירים</a><a href="terms.html">הסכם ההתקשרות</a><a href="privacy.html">פרטיות</a><a href="refund.html">ביטול והחזרים</a><a href="accessibility.html">נגישות</a></div>
+<p>המערכת מציגה את הנתונים שלכם. אין בכך ייעוץ פיננסי, ייעוץ אשראי או ייעוץ השקעות.</p>
+<p>יצירת קשר: <a href="mailto:support@ranalystix.com"><bdi dir="ltr">support@ranalystix.com</bdi></a></p>
+<p class="so"><span class="ln"></span><span class="in"><img src="data:image/png;base64,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" alt="" width="15" height="15" style="display:inline-block;vertical-align:middle"><span class="by">מבית RAnalyst</span><span class="dot">·</span>מאז 2008</span><span class="ln"></span></p>
+</div></footer>
+</body>
+</html>
