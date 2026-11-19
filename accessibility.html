@@ -38,6 +38,9 @@ border-radius:16px;padding:18px 24px;box-shadow:0 12px 30px rgba(0,0,0,.2)}
 .hero .launch .big{display:flex;align-items:center;gap:12px;font-size:28px;font-weight:300;line-height:1.25;letter-spacing:-.01em}
 .hero .launch .big i{width:11px;height:11px;border-radius:50%;background:#0FB981;box-shadow:0 0 0 5px rgba(15,185,129,.22);flex:0 0 auto}
 .hero .launch .rest{display:block;margin-top:6px}
+/* the address carries no line under it (Orly, 19 Nov 2026: "בלי פס מתחת לכתובת מייל"); a heavier weight marks it as a link, the line comes back under the pointer and the keyboard */
+.hero .launch .rest a{text-decoration:none;font-weight:500}
+.hero .launch .rest a:hover,.hero .launch .rest a:focus-visible{text-decoration:underline}
 .hero .launch .go{background:#0FB981;color:#0A2555;font-weight:500;font-size:16px;border-radius:10px;padding:12px 20px;
 text-decoration:none;margin-inline-start:auto;white-space:nowrap}
 .hero .launch .go:focus-visible{outline-offset:3px}
